@@ -1,0 +1,32 @@
+
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <title>거북아, 저리가</title>
+    </head>
+    <body>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+            <div id="title" >
+                거북아, 저리가
+            </div>
+
+            <div id = "totalBadPose">
+                오늘의 나쁜 자세 횟수 : <div id = "badPostCnt"></div>
+            </div>
+<!--            <audio id = "nopeAudio" controls>-->
+<!--                <source id="mp3Source" src="nope.mp3" type="audio/mp3">-->
+<!--            </audio>-->
+            <div class="two-peace">
+                <div>
+                    <video id="video" width="700" height="500" autoplay></video>
+                </div>
+                <div>
+                    <canvas id="canvas" width="700" height="500"></canvas>
+                </div>
+                <audio id ="audio" controls src="nope.mp3" type ="audio/mp3"></audio>
+            </div>
+    </body>
+</html>
+<script src="js/video.js"></script>
